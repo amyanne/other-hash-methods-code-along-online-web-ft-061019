@@ -10,6 +10,5 @@ require 'pry'
 
 def get_the_min(groceries)
   #code your solution here!
- groceries.each do |product, food|
-   product.each do |
+ groceries.values.flatten.min
 end
